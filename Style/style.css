@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: auto;
+    margin: 0% auto;
+}
+/* Header Styling */
+.header{
+    background-image: url(./../files/bg.jpg);
+    padding-top: 40px;
+    margin: 0% auto;
+    height: 600px;
+}
+/* Navbar Styling */
+.nav{
+    display: flex;
+    gap: 580px;
+    margin-bottom: 50px;
+    margin: 0% auto;
+    width: 90%;
+}
+.logo img{
+    width: 200px;
+}
+.navlinks{
+    display: flex;
+    text-decoration: none;
+    align-self: center;
+    gap: 20px;
+}
+.navlinks ul{
+    display: flex;
+    gap: 30px;
+}
+.navlinks ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.navlinks .navbtn1 button{
+    width: 80px;
+    height: 30px;
+}
+.navlinks .navbtn2 button{
+    width: 130px;
+    height: 30px;
+}
+/* Hero Styling */
+.hero{
+    display: flex;
+    gap: 190px;
+    margin: 0% auto;
+    width: 90%;
+    margin-top: 70px;
+}
+.hero .h{
+    font-size: 38px;
+    color: white;
+    width: 540px;
+}
+.hero .para{
+    font-size: 23px;
+    color: white;
+    margin-top: 50px;
+    width: 590px;
+}
+.hero .herobtn button{
+    margin-top: 50px;
+    width: 170px;
+    height: 45px;
+}
+.heroimg img{
+    width: 600px;
+}
+/* Contant Styling */
+.container{
+    display: flex;
+    margin: 0% auto;
+    width: 90%;
+    margin-top: 100px;
+}
+.container .h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+}
+.container .para2{
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.container .btn button{
+     width: 170px;
+     height: 45px;
+}
+/* container 2 Styling */
+.con2{
+    display: flex;
+    margin: 0% auto;
+    width: 90%;
+    gap: 100px;
+    margin-top: 100px;
+}
+.con2 .text2{
+    align-self: center;
+}
+.con2 .h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: auto;
+}
+.con2 .para3{
+    font-size: 23px;
+    width: auto;
+    margin-bottom: 40px;
+}
+.con2 .btn2 button{
+    width: 170px;
+    height: 45px;
+}
+/* Subscription Styling */
+.sub{
+    display: flex;
+    margin: 0% auto;
+    width: 90%;
+    gap: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.sub .first{
+    border: 2px solid black;
+    height: 300px;
+    width: auto;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    box-shadow: 1px 3px;
+}
+.sub .sec{
+    border: 2px solid black;
+    height: 300px;
+    width: auto;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    box-shadow: 1px 3px;
+}
+.sub .third{
+    border: 2px solid black;
+    height: 300px;
+    width: auto;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    box-shadow: 1px 3px;
+}
+.sub .first .heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.sub .sec .heading{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px
+}
+.sub .third .heading{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sub .first .t{
+    font-size: 25px;
+    padding: 10px;
+}
+.sub .sec .t{
+    font-size: 25px;
+    padding: 10px;
+}
+.sub .third .t{
+    font-size: 25px;
+    padding: 10px;
+}
+.sub .first .price{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.sub .sec .price{
+font-size: 30px;
+font-weight: bolder;
+padding-top: 20px;
+}
+.sub .third .price{
+font-size: 30px;
+font-weight: bolder;
+padding-top: 20px;
+}
+/* footer Styling */
+footer{
+    background-color: #0f447c;
+    height: 300px;
+}
+.footer{
+    margin: 0% auto;
+    width: 90%;
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+.footer .footerlinks{
+    align-self: center;
+}
+.footer .feedback{
+    align-self: center;
+}
+.footer .logo{
+    align-self: center;
+}
+.footer .footerlinks ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.footer .footerlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.footer .feedback input{
+    width: 450px;
+    height: 35px;
+    padding-right: 10px;
+}
+.footer .feedback button{
+    width: 90px;
+    height: 35px;   
+}
+.footer .feedback label{
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.social{
+    display: flex;
+    margin: 0% auto;
+    width: 90%;
+    margin-top: 70px;
+    gap: 60px;
+    justify-content: center;
+}
+.social h2{
+    color: white;
+    font-size: 30px;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+    gap:70px;
+}
+.social ul li a{
+    font-size: 25px;
+}
+hr{
+    color: white;
+    font-weight: bolder;
+    margin-top: 90px;
+}
+.end{
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+}
+@media (min-width: 320px) and (max-width: 720px) {
+    .nav{
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navlinks{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero{
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero .h{
+        width: auto;
+    }
+    .hero .para{
+        width: auto;
+    }
+    .header{
+        height: auto;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container .h2{
+        width: auto;
+    }
+    .container .para2{
+        width: auto;
+    }
+    .con2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sub{
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .social{
+        flex-direction: column;
+        text-align: center;
+    }
+    .social ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .feedback input{
+        width: 250px;
+        height: 35px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .footer .feedback label{
+        padding-right: 0;
+        font-size: 20px;
+        color: white;
+    }
+    .heroimg img{
+        width: 100%;
+    }
+    .img{
+        width: auto;
+    }
+    .img2 img{
+        width: auto;
+    }
+}
