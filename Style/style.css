@@ -41,7 +41,7 @@
 }
 .navlinks ul li a:hover{
     color: #0f447c;
-    border: 2px solid white;
+    border: 2px solid black;
     background-color: white;
     height: 10px;
     border-radius: 7px;
@@ -49,16 +49,23 @@
 .navlinks .navbtn1 button{
     width: 80px;
     height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
 }
 .navlinks .navbtn1 button:hover{
     background-color: #0f447c;
     color: white;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 7px;
 }
 .navlinks .navbtn2 button{
     width: 130px;
-    height: 30px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: #0f447c;
 }
 .navlinks .navbtn2 button:hover{
     background-color: #0f447c;
@@ -89,6 +96,10 @@
     margin-top: 50px;
     width: 170px;
     height: 45px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: #0f447c;
 }
 .hero .herobtn button:hover{
     background-color: #0f447c;
@@ -118,6 +129,10 @@
 .container .btn button{
      width: 170px;
      height: 45px;
+     background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: #0f447c;
 }
 .container .btn button:hover{
     background-color: #0f447c;
@@ -149,6 +164,10 @@
 .con2 .btn2 button{
     width: 170px;
     height: 45px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: #0f447c;
 }
 .con2 .btn2 button:hover{
     background-color: #0f447c;
@@ -296,7 +315,11 @@ footer{
 }
 .footer .feedback button{
     width: 90px;
-    height: 35px;   
+    height: 35px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: #0f447c;   
 }
 .footer .feedback button:hover{
     background-color: #0f447c;
