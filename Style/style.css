@@ -39,13 +39,32 @@
     color: white;
     text-decoration: none;
 }
+.navlinks ul li a:hover{
+    color: #0f447c;
+    border: 2px solid white;
+    background-color: white;
+    height: 10px;
+    border-radius: 7px;
+}
 .navlinks .navbtn1 button{
     width: 80px;
     height: 30px;
 }
+.navlinks .navbtn1 button:hover{
+    background-color: #0f447c;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
 .navlinks .navbtn2 button{
     width: 130px;
     height: 30px;
+}
+.navlinks .navbtn2 button:hover{
+    background-color: #0f447c;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
 }
 /* Hero Styling */
 .hero{
@@ -71,6 +90,12 @@
     width: 170px;
     height: 45px;
 }
+.hero .herobtn button:hover{
+    background-color: #0f447c;
+    color: white;
+    border: 2px solid rgb(213, 211, 211);
+    border-radius: 7px;
+}
 .heroimg img{
     width: 600px;
 }
@@ -93,6 +118,12 @@
 .container .btn button{
      width: 170px;
      height: 45px;
+}
+.container .btn button:hover{
+    background-color: #0f447c;
+    color: white;
+    border: 2px solid rgb(213, 211, 211);
+    border-radius: 7px;
 }
 /* container 2 Styling */
 .con2{
@@ -119,6 +150,12 @@
     width: 170px;
     height: 45px;
 }
+.con2 .btn2 button:hover{
+    background-color: #0f447c;
+    color: white;
+    border: 2px solid rgb(213, 211, 211);
+    border-radius: 7px;
+}
 /* Subscription Styling */
 .sub{
     display: flex;
@@ -135,6 +172,21 @@
     background-color: #f3f3f3;
     border-radius: 15px;
     box-shadow: 1px 3px;
+}
+.sub .first:hover{
+    background-color: #0f447c;
+    color: white;
+    border-color: azure;
+}
+.sub .sec:hover{
+    background-color: #0f447c;
+    color: white;
+    border-color: azure;
+}
+.sub .third:hover{
+    background-color: #0f447c;
+    color: white;
+    border-color: azure;
 }
 .sub .sec{
     border: 2px solid black;
@@ -229,14 +281,28 @@ footer{
     color: white;
     font-size: 25px;
 }
+.footer .footerlinks ul li a:hover{
+    color: #0f447c;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 7px;
+}
 .footer .feedback input{
     width: 450px;
     height: 35px;
     padding-right: 10px;
+    border: 2px solid white;
+    border-radius: 7px;
 }
 .footer .feedback button{
     width: 90px;
     height: 35px;   
+}
+.footer .feedback button:hover{
+    background-color: #0f447c;
+    color: white;
+    border: 2px solid rgb(213, 211, 211);
+    border-radius: 7px;
 }
 .footer .feedback label{
     padding-right: 20px;
@@ -321,6 +387,15 @@ hr{
     .sub{
         flex-direction: column;
     }
+    .sub .first{
+        height: auto;
+    }
+    .sub .sec{
+        height: auto;
+    }
+    .sub .third{
+        height: auto;
+    }
     footer{
         height: auto;
     }
@@ -353,10 +428,11 @@ hr{
     .heroimg img{
         width: 100%;
     }
-    .img{
-        width: auto;
+    .container .img img{
+        width: 320px;
+        height: auto;
     }
     .img2 img{
-        width: auto;
+        width: 90%;
     }
 }
