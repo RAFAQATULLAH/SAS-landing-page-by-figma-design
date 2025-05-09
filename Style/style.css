@@ -9,6 +9,7 @@
 /* Header Styling */
 .header{
     background-image: url(./../files/bg.jpg);
+    background-size: 100%;
     padding-top: 40px;
     margin: 0% auto;
     height: 600px;
@@ -20,6 +21,7 @@
     margin-bottom: 50px;
     margin: 0% auto;
     width: 90%;
+    position: sticky;
 }
 .logo img{
     width: 200px;
